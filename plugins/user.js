@@ -229,15 +229,15 @@ Description: ${i.desc}\`\`\``);
         const readMore = String.fromCharCode(8206).repeat(4001);
       let menu = `\n╔╤╤╤᭕〔 ${BOT_INFO.split(";")[0]} 〕╤╤╤╤╤᭕
     ╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
-    ╠»  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
-    ╠» *ᴜꜱᴇʀ*: ${usern}
-    ╠» *ᴅᴀᴛᴇ*: ${date}
-    ╠» *ᴛɪᴍᴇ*: ${time}
-    ╠» *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
-    ╠» *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
-    ╠» *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
-    ╠» *VERSION*: ${require("../package.json").version}
-    ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
+╠»  ╠»  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
+╠»  ╠» *ᴜꜱᴇʀ*: ${usern}
+╠»  ╠» *ᴅᴀᴛᴇ*: ${date}
+╠»  ╠» *ᴛɪᴍᴇ*: ${time}
+╠»  ╠» *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
+╠»  ╠» *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
+╠»  ╠» *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
+╠»  ╠» *VERSION*: ${require("../package.json").version}
+╠»  ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
 ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕\n ${readMore}\n╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
 
       let cmnd = [];

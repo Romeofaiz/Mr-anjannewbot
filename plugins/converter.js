@@ -107,7 +107,7 @@ X-Asena - X-Electra
 
 command(
   {
-    pattern: "tgs",
+    pattern: "ts",
     fromMe: isPrivate,
     desc: "Download Sticker From Telegram",
     type: "download",
@@ -115,7 +115,7 @@ command(
   async (message, match) => {
     if (!match)
       return message.reply(
-        "*_Enter a tg sticker url_*\n*_Eg: https://t.me/addstickers/Oldboyfinal\nKeep in mind that there is a chance of ban if used frequently_*"
+        "*_Enter a tg sticker url_*\n*_Eg: https://t.me/addstickers/sticker_lovely01\n𝐌𝐫-𝐚𝐧𝐣𝐚𝐧🦋👀_*"
       );
     let packid = match.split("/addstickers/")[1];
     let { result } = await getJson(

@@ -33,12 +33,12 @@ command(
     },
     async (message, match, client) => {
         const start = new Date().getTime();
-      let { key } = await message.sendMessage(`*᭕𝚫𝚴𝐉𝚫𝚴༈*`);
+      let { key } = await message.sendMessage(`*᭕ＲＯＭＥＫ-ＸＤ༈*`);
         const end = new Date().getTime();
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-         await message.client.sendMessage(message.jid,{text:`᭕𝚫𝚴𝐉𝚫𝚴༈${speed} *𝑴𝒔🕊*` , edit: key});
+         await message.client.sendMessage(message.jid,{text:`᭕ＲＯＭＥＫ-ＸＤ༈${speed} *MS🕊*` , edit: key});
 })
 
 /* Copyright (C) 2022 X-Electra.
@@ -228,18 +228,16 @@ Description: ${i.desc}\`\`\``);
         let usern = message.pushName
         const readMore = String.fromCharCode(8206).repeat(4001);
       let menu = `\n╔╤╤╤᭕〔 ${BOT_INFO.split(";")[0]} 〕╤╤╤╤╤᭕
-    ╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
-╠»  ╠»  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
-╠»  ╠» *ᴜꜱᴇʀ*: ${usern}
-╠»  ╠» *ᴅᴀᴛᴇ*: ${date}
-╠»  ╠» *ᴛɪᴍᴇ*: ${time}
-╠»  ╠» *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
-╠»  ╠» *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
-╠»  ╠» *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
-╠»  ╠» *VERSION*: ${require("../package.json").version}
-╠»  ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
-╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕\n ${readMore}\n╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
-
+  ╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
+  ╠»  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
+  ╠» *ᴜꜱᴇʀ*: ${usern}
+  ╠» *ᴅᴀᴛᴇ*: ${date}
+  ╠» *ᴛɪᴍᴇ*: ${time}
+  ╠» *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
+  ╠» *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
+  ╠» *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
+  ╠» *VERSION*: ${require("../package.json").version}
+  ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕\n ${readMore}\n`;
       let cmnd = [];
       let cmd;
       let category = [];
@@ -268,7 +266,7 @@ Description: ${i.desc}\`\`\``);
         });
         menu += `\n   ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
       });
-menu += `\n©𝚫𝚴𝐉𝚫𝚴᭕`;
+menu += `\n©ＲＯＭＥＫ-ＸＤ `;
       let penu = tiny(menu)
       let vd = BOT_INFO.split(";")[2];
       return await message.sendFromUrl(vd, {fileLength: "500000000", gifPlayback: true, contextInfo: {
@@ -277,7 +275,7 @@ menu += `\n©𝚫𝚴𝐉𝚫𝚴᭕`;
       isForwarded: false,
       forwardedNewsletterMessageInfo: {
       newsletterJid: '120363239634100086@newsletter',
-      newsletterName: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+      newsletterName: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
       serverMessageId: -1
             }}, caption: (penu)}, {quoted: message })
     }
@@ -324,7 +322,7 @@ command(
       if (desc) menu += `\n│  Use: \`\`\`${desc}\`\`\``;
       menu += `\n│\n`;
     });
-    menu += `╰───────┈┫「 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧-𝐌𝐃-𝐁𝐎𝐓 」┣┈────♡`;
+    menu += `╰───────┈┫「 𝗥𝗢𝗠𝗘𝗞-𝗫𝗗-𝗕𝗢𝗧 」┣┈────♡`;
     return await message.reply(message.jid, { text: (tiny(menu)) })
 })
 
@@ -456,7 +454,7 @@ command(
 	type: 'user'
 }, async (message, match) => {
 	match = match || message.reply_message.text
-	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»_*.')
+	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»_*.')
 	await message.client.updateProfileStatus(match)
 	await message.reply('*_Successfully bio updated_*')
 })

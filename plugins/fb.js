@@ -20,7 +20,7 @@ await message.client.sendMessage(message.jid, { text: `\n╔┅┅┅┅┅┅�
 ║
 ║ 𝗦𝗲𝗻𝗱 𝗮 𝗻𝘂𝗺𝗯𝗲𝗿 𝗮𝘀 𝗮 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱
 ╚┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⚆\n`, contextInfo: { externalAdReply: {
-     title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+     title: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
      body: "",
      sourceUrl: "",
      mediaUrl: "",
@@ -45,7 +45,7 @@ let final = message.reply_message.text.split("║ ")[3]
 final = final.replace("𝐔𝐫𝐥 :", "")
 let title = final;
 let {data} = await getJson(`https://api.vihangayt.asia/downloader/fb?url=${title}`)
-await message.sendFromUrl(data.sdLink, {caption: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»"}, {quoted:message})
+await message.sendFromUrl(data.sdLink, {caption: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»"}, {quoted:message})
 
 }catch(error){
 return error
@@ -57,7 +57,7 @@ let final = message.reply_message.text.split("║ ")[3]
 final = final.replace("𝐔𝐫𝐥 :", "")
 let title = final;
 let {data} = await getJson(`https://api.vihangayt.asia/downloader/fb?url=${title}`)
-await message.sendFromUrl(data.hdLink, {caption: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»"}, {quoted:message})
+await message.sendFromUrl(data.hdLink, {caption: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»"}, {quoted:message})
 
 }catch(error){
 return error

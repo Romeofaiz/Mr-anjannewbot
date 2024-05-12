@@ -16,5 +16,5 @@ const imgp = './dldImg.jpg';
 fs.writeFileSync(imgp,await m.quoted.download());
 let {link} = await upload(imgp)
 let img = `https://api.maher-zubair.tech/maker/enhance?url=${link}`;
-return await message.sendFromUrl(img, {caption: "*〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»*"})
+return await message.sendFromUrl(img, {caption: "*〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»*"})
 });

@@ -15,14 +15,14 @@ try {
         await message.sendMessage(
       buff,
       { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+title: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
 body: "𝙚𝙢𝙤𝙟𝙞 𝙢𝙞𝙭𝙚𝙙",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }} },
+thumbnailUrl: "https://i.imgur.com/ooDrItZ.mp4" }} },
       "sticker"
     );
     } catch (error) {

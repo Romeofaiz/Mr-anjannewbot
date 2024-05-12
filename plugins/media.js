@@ -108,7 +108,7 @@ command(
     if (message.reply_message.mtype !== "stickerMessage")
       return await message.reply("*_Not a sticker_*");
     let buff = await m.quoted.download();
-    return await message.sendMessage(buff,{mimetype: 'image/jpeg', caption: (X.CAPTION), quoted: message }, "image")
+    return await message.sendMessage(buff,{mimetype: 'image/jpeg', caption: (𝑹𝑶𝑴𝑬𝑲-𝑿𝑫), quoted: message }, "image")
   }
 );
 
@@ -127,7 +127,7 @@ command(
       return await message.reply("*_Not a sticker_*");
     let buff = await m.quoted.download();
     let buffer = await webp2mp4(buff);
-    return await message.sendMessage(buffer,{mimetype: 'video/mp4', caption: (X.CAPTION), quoted: message }, "video")
+    return await message.sendMessage(buffer,{mimetype: 'video/mp4', caption: (𝑹𝑶𝑴𝑬𝑲-𝑿𝑫), quoted: message }, "video")
   }
 );
 
@@ -166,10 +166,10 @@ command(
     if (message.reply_message.mtype == "stickerMessage"){
       let buff = await m.quoted.download();
    let buffer = await webp2mp4(buff);
-   await message.client.sendMessage(message.jid, { video: { url : buffer }, gifPlayback: true, caption: (X.CAPTION)},{ quoted: message });
+   await message.client.sendMessage(message.jid, { video: { url : buffer }, gifPlayback: true, caption: (𝑹𝑶𝑴𝑬𝑲-𝑿𝑫)},{ quoted: message });
    } else if(message.reply_message.video){
     let buff = await m.quoted.download();
-   await message.client.sendMessage(message.jid, { video: buff, gifPlayback: true, caption: (X.CAPTION)},{ quoted: message });
+   await message.client.sendMessage(message.jid, { video: buff, gifPlayback: true, caption: (𝑹𝑶𝑴𝑬𝑲-𝑿𝑫)},{ quoted: message });
   }
   }
 );

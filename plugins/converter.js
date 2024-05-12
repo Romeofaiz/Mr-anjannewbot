@@ -46,12 +46,12 @@ command(
       let text = tiny(
         "\n𝗙𝗔𝗡𝗖𝗬 𝗧𝗘𝗫𝗧 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥\n\nReply to a message\nExample: .fancy 32\n\n"
       );
-      listall("nezuko").forEach((txt, num) => {
+      listall("romek-xd").forEach((txt, num) => {
         text += `${(num += 1)} ${txt}\n`;
       });
-        text += "\n\n*MR-ANJAN*"
-      return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "★᭄☞⃟𝐌𝐫-𝐚𝐧𝐣𝐚𝐧😈᭄★𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+        text += "\n\n*ROMEK-XD*"
+      return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "★᭄☞⃟𝑹𝑶𝑴𝑬𝑲-𝑿𝑫😈᭄★𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
+title: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
@@ -86,7 +86,7 @@ command(
     message.sendMessage(
       buff,
       { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+title: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙄𝙣𝙩𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧",
 sourceUrl: "",
 mediaUrl: "",
@@ -115,7 +115,7 @@ command(
   async (message, match) => {
     if (!match)
       return message.reply(
-        "*_Enter a tg sticker url_*\n*_Eg: https://t.me/addstickers/sticker_lovely01\n𝐌𝐫-𝐚𝐧𝐣𝐚𝐧🦋👀_*"
+        "*_Enter a tg sticker url_*\n*_Eg: https://t.me/addstickers/sticker_lovely01\n𝑹𝑶𝑴𝑬𝑲-𝑿𝑫🦋👀_*"
       );
     let packid = match.split("/addstickers/")[1];
     let { result } = await getJson(
@@ -167,7 +167,7 @@ command(
       {
         packname: packname || config.STICKER_DATA.split(";")[0],
         author: author || config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
+title: "〆𝑹𝑶𝑴𝑬𝑲-𝑿𝑫👀🦋 ː͢»",
 body: `𝙏𝙖𝙠𝙚𝙙 𝙏𝙤 ${match}`,
 sourceUrl: "",
 mediaUrl: "",
